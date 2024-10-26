@@ -2,7 +2,7 @@ import openai
 import PyPDF2
 
 
-openai.api_key = 'insertAPIKEYHERE'
+#openai.api_key = 'insertAPIKEYHERE'
 
 def extract_text_from_pdf(file_path):
     text = ""
