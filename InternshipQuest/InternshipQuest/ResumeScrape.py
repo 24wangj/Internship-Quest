@@ -1,8 +1,9 @@
 import openai
 import PyPDF2
+import os
 
 
-
+openai.api_key = os.environ['InternKey']
 
 def extract_text_from_pdf(file_path):
     text = ""
